@@ -1,0 +1,48 @@
+2024-03-03 14:37:38.430  INFO 5662 --- [main] com.sample.elk.ElkStackApplication       : Starting ElkStackApplication using Java 19.0.1 on Srikanths-Air.hitronhub.home with PID 5662 (/Users/srikanthjosyula/Documents/GitHub-Projects/springboot-elk-stack-example/target/classes started by srikanthjosyula in /Users/srikanthjosyula/Documents/GitHub-Projects/springboot-elk-stack-example)
+2024-03-03 14:37:38.431  INFO 5662 --- [main] com.sample.elk.ElkStackApplication       : No active profile set, falling back to default profiles: default
+2024-03-03 14:37:38.978  INFO 5662 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2024-03-03 14:37:38.985  INFO 5662 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-03 14:37:38.985  INFO 5662 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2024-03-03 14:37:39.023  INFO 5662 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-03 14:37:39.024  INFO 5662 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 563 ms
+2024-03-03 14:37:39.246  INFO 5662 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2024-03-03 14:37:39.252  INFO 5662 --- [main] com.sample.elk.ElkStackApplication       : Started ElkStackApplication in 1.097 seconds (JVM running for 1.302)
+2024-03-03 14:42:41.778  INFO 5734 --- [main] com.sample.elk.ElkStackApplication       : Starting ElkStackApplication using Java 19.0.1 on Srikanths-Air.hitronhub.home with PID 5734 (/Users/srikanthjosyula/Documents/GitHub-Projects/springboot-elk-stack-example/target/classes started by srikanthjosyula in /Users/srikanthjosyula/Documents/GitHub-Projects/springboot-elk-stack-example)
+2024-03-03 14:42:41.779  INFO 5734 --- [main] com.sample.elk.ElkStackApplication       : No active profile set, falling back to default profiles: default
+2024-03-03 14:42:42.359  INFO 5734 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2024-03-03 14:42:42.366  INFO 5734 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-03 14:42:42.367  INFO 5734 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2024-03-03 14:42:42.407  INFO 5734 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-03 14:42:42.407  INFO 5734 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 597 ms
+2024-03-03 14:42:42.633  INFO 5734 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2024-03-03 14:42:42.640  INFO 5734 --- [main] com.sample.elk.ElkStackApplication       : Started ElkStackApplication in 1.127 seconds (JVM running for 1.38)
+2024-03-03 14:42:51.458  INFO 5734 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-03 14:42:51.459  INFO 5734 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-03 14:42:51.459  INFO 5734 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-03 14:42:51.476  INFO 5734 --- [http-nio-8090-exec-1] c.sample.elk.controller.UserController   : Requesting to fetch all users
+2024-03-03 14:42:51.476  INFO 5734 --- [http-nio-8090-exec-1] c.s.elk.services.impl.UserServiceImpl    : Fetching all users
+2024-03-03 14:43:46.939  INFO 5734 --- [http-nio-8090-exec-3] c.sample.elk.controller.UserController   : Requesting to fetch user by id: 1
+2024-03-03 14:43:46.939  INFO 5734 --- [http-nio-8090-exec-3] c.s.elk.services.impl.UserServiceImpl    : Fetching user by id: 1
+2024-03-03 16:23:30.982  INFO 5734 --- [http-nio-8090-exec-5] c.sample.elk.controller.UserController   : Requesting to fetch user by id: 3
+2024-03-03 16:23:30.984  INFO 5734 --- [http-nio-8090-exec-5] c.s.elk.services.impl.UserServiceImpl    : Fetching user by id: 3
+2024-03-03 16:23:34.772  INFO 5734 --- [http-nio-8090-exec-6] c.sample.elk.controller.UserController   : Requesting to fetch user by id: 2
+2024-03-03 16:23:34.773  INFO 5734 --- [http-nio-8090-exec-6] c.s.elk.services.impl.UserServiceImpl    : Fetching user by id: 2
+2024-03-03 16:23:37.257  INFO 5734 --- [http-nio-8090-exec-7] c.sample.elk.controller.UserController   : Requesting to fetch all users
+2024-03-03 16:23:37.257  INFO 5734 --- [http-nio-8090-exec-7] c.s.elk.services.impl.UserServiceImpl    : Fetching all users
+2024-03-03 16:23:43.162  INFO 5734 --- [http-nio-8090-exec-9] c.sample.elk.controller.UserController   : Requesting to fetch user by id: 2
+2024-03-03 16:23:43.162  INFO 5734 --- [http-nio-8090-exec-9] c.s.elk.services.impl.UserServiceImpl    : Fetching user by id: 2
+2024-03-03 16:23:46.906  INFO 5734 --- [http-nio-8090-exec-10] c.sample.elk.controller.UserController   : Requesting to fetch user by id: 1
+2024-03-03 16:23:46.907  INFO 5734 --- [http-nio-8090-exec-10] c.s.elk.services.impl.UserServiceImpl    : Fetching user by id: 1
+2024-03-03 14:42:51.476  INFO 5734 --- [http-nio-8090-exec-1] c.s.elk.services.impl.UserServiceImpl    : Fetching all users
+2024-03-03 14:43:46.939  INFO 5734 --- [http-nio-8090-exec-3] c.sample.elk.controller.UserController   : Requesting to fetch user by id: 1
+2024-03-03 14:43:46.939  INFO 5734 --- [http-nio-8090-exec-3] c.s.elk.services.impl.UserServiceImpl    : Fetching user by id: 1
+2024-03-03 16:23:30.982  INFO 5734 --- [http-nio-8090-exec-5] c.sample.elk.controller.UserController   : Requesting to fetch user by id: 3
+2024-03-03 16:23:30.984  INFO 5734 --- [http-nio-8090-exec-5] c.s.elk.services.impl.UserServiceImpl    : Fetching user by id: 3
+2024-03-03 16:23:34.772  INFO 5734 --- [http-nio-8090-exec-6] c.sample.elk.controller.UserController   : Requesting to fetch user by id: 2
+2024-03-03 16:23:34.773  INFO 5734 --- [http-nio-8090-exec-6] c.s.elk.services.impl.UserServiceImpl    : Fetching user by id: 2
+2024-03-03 16:23:37.257  INFO 5734 --- [http-nio-8090-exec-7] c.sample.elk.controller.UserController   : Requesting to fetch all users
+2024-03-03 16:23:37.257  INFO 5734 --- [http-nio-8090-exec-7] c.s.elk.services.impl.UserServiceImpl    : Fetching all users
+2024-03-03 16:23:43.162  INFO 5734 --- [http-nio-8090-exec-9] c.sample.elk.controller.UserController   : Requesting to fetch user by id: 2
+2024-03-03 16:23:43.162  INFO 5734 --- [http-nio-8090-exec-9] c.s.elk.services.impl.UserServiceImpl    : Fetching user by id: 2
+2024-03-03 16:23:46.906  INFO 5734 --- [http-nio-8090-exec-10] c.sample.elk.controller.UserController   : Requesting to fetch user by id: 1
+2024-03-03 16:23:46.907  INFO 5734 --- [http-nio-8090-exec-10] c.s.elk.services.impl.UserServiceImpl    : Fetching user by id: 1
