@@ -16,6 +16,8 @@ In this setup, a Spring Boot application communicates with Logstash to send its 
 -  <img src="https://github.com/srikanth-josyula/springboot-elk-stack-example/blob/main/docs/ELK3.png" width="750" height="400">
 
 ## ELK Setup
+Find Detailed Steps involved [Steps for ELK Setup](https://github.com/srikanth-josyula/springboot-elk-stack-example/blob/main/docs/Springboot%20%20ELKs%20Setup.pdf)
+
 ### Starting the Spring Boot Application Locally
 1. Clone the repository containing the Spring Boot application to your local machine.
 2. Do a mvn clean install
@@ -42,5 +44,5 @@ In this setup, a Spring Boot application communicates with Logstash to send its 
 1. Visit `http://localhost:9200/_cat` to view all available categories. Navigate to `http://localhost:9200/_cat/indices` to see the internally created indexes.
 2. Open Kibana and navigate to Analytics. Create a data view by selecting index patterns. Upon saving, access the logs via the Discover tab, where you can view logs and related details in JSON format.
 
-Find Detailed Steps involved under /docs
+
 
