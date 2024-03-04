@@ -6,7 +6,11 @@ This repository contains a simple example demonstrating how to set up logging wi
 
 In this setup, a Spring Boot application communicates with Logstash to send its logs. Logstash processes these logs and forwards them to Elasticsearch for storage and indexing. Kibana, running on a separate port, provides a user-friendly interface to visualize and analyze the logs stored in Elasticsearch.
 
+-  <img src="https://github.com/srikanth-josyula/springboot-elk-stack-example/blob/main/docs/ELK1.png" width="750" height="400">
+
 - **Spring Boot Application:** Generates logs which are collected by Logstash. This is facilitated by the `logstash.conf` file, which needs to be created. In this configuration file, specify the input file path and the output Elasticsearch host along with its port.
 - **Logstash**: Collects logs from the Spring Boot application and sends them to Elasticsearch.
 - **Elasticsearch**: Stores and indexes the logs received from Logstash.
 - **Kibana**: Provides a web interface to interact with Elasticsearch, allowing users to visualize and analyze logs.
+
+-  <img src="https://github.com/srikanth-josyula/springboot-elk-stack-example/blob/main/docs/ELK3.png" width="750" height="400">
